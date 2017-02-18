@@ -4,10 +4,10 @@ import argparse
 import math
 parser = argparse.ArgumentParser()
 parser.add_argument("wind")
-parser.add_argument("deg")
+parser.add_argument("dir")
 args = parser.parse_args()
 wind=args.wind
-deg=args.deg
+dir=args.dir
 sin=math.sin
 cos=math.cos
 '''
@@ -24,4 +24,4 @@ def uv(speed,deg):
     return uc,vc
 #print u(13,215)
 #print v(13,215)
-print uv(wind,deg)
+print uv(wind,dir)
