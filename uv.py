@@ -19,8 +19,8 @@ def v(speed,deg):
     return vc
 '''
 def uv(speed,deg):
-    uc=-speed*sin((pi/180)*deg)
-    vc=-speed*cos((pi/180)*deg)
+    uc=speed*sin((pi/180)*deg)
+    vc=speed*cos((pi/180)*deg)
     return uc,vc
 #print u(13,215)
 #print v(13,215)
